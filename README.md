@@ -23,5 +23,3 @@ ctest --test-dir build -C Release --output-on-failure
 On Windows with Visual Studio, use `build/Release/billiards.exe`.
 
 Download the [benchmark dataset](https://drive.google.com/drive/folders/1dzNrhDpc2DXRqmQgbO5l2WMjzfhMdxVn) into `data/`, preserving its clip folders. Outputs include annotated videos, segmentation masks, ball positions, minimaps, and evaluation metrics.
-
-See [the report](docs/REPORT.md) for methods and measured results. This is an AI-generated reference project; the supplied course rules prohibit submitting AI-written code.
