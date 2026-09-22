@@ -1,0 +1,11 @@
+game1_clip1: 187 input frames, 187 analyzed frames, 187 decoded output frames; final minimap present.
+game1_clip2: 157 input frames, 157 analyzed frames, 157 decoded output frames; final minimap present.
+game1_clip3: 158 input frames, 158 analyzed frames, 158 decoded output frames; final minimap present.
+game1_clip4: 153 input frames, 153 analyzed frames, 153 decoded output frames; final minimap present.
+game2_clip1: 122 input frames, 122 analyzed frames, 122 decoded output frames; final minimap present.
+game2_clip2: 133 input frames, 133 analyzed frames, 133 decoded output frames; final minimap present.
+game3_clip1: 116 input frames, 116 analyzed frames, 116 decoded output frames; final minimap present.
+game3_clip2: 119 input frames, 119 analyzed frames, 119 decoded output frames; final minimap present.
+game4_clip1: 156 input frames, 156 analyzed frames, 156 decoded output frames; final minimap present.
+game4_clip2: 163 input frames, 163 analyzed frames, 163 decoded output frames; final minimap present.
+20 annotated images evaluated; all six segmentation labels checked by the evaluator.

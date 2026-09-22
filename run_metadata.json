@@ -1,0 +1,137 @@
+{
+  "compiler": "GCC 13.3.0",
+  "standard": "C++17",
+  "opencv": "4.10.0 (local source build)",
+  "cmake": "4.4.3",
+  "date": "2026-09-22",
+  "annotated_images": 20,
+  "clips": 10,
+  "total_video_frames": 1464,
+  "source_video_rates": [
+    {
+      "clip": "game1_clip1",
+      "fps": 29.97,
+      "frames": 187
+    },
+    {
+      "clip": "game1_clip2",
+      "fps": 29.97,
+      "frames": 157
+    },
+    {
+      "clip": "game1_clip3",
+      "fps": 29.97,
+      "frames": 158
+    },
+    {
+      "clip": "game1_clip4",
+      "fps": 29.97,
+      "frames": 153
+    },
+    {
+      "clip": "game2_clip1",
+      "fps": 25.0,
+      "frames": 122
+    },
+    {
+      "clip": "game2_clip2",
+      "fps": 25.0,
+      "frames": 133
+    },
+    {
+      "clip": "game3_clip1",
+      "fps": 24.859,
+      "frames": 116
+    },
+    {
+      "clip": "game3_clip2",
+      "fps": 24.793,
+      "frames": 119
+    },
+    {
+      "clip": "game4_clip1",
+      "fps": 29.943,
+      "frames": 156
+    },
+    {
+      "clip": "game4_clip2",
+      "fps": 29.91,
+      "frames": 163
+    }
+  ],
+  "source_sha256": {
+    "game1_clip1/bounding_boxes/frame_first_bbox.txt": "e4dcf2c050b7e9ac6d7201c95ca0d483a0e6445aef0965bad207c088bce0431a",
+    "game1_clip1/bounding_boxes/frame_last_bbox.txt": "0c6693ac2fb4894491d18950678839fdf5da779b2d1916795aa763537dcb998b",
+    "game1_clip1/frames/frame_first.png": "83babba1d769b3310910463e6ce044b2781962bed57ff341db0c153d984670ca",
+    "game1_clip1/frames/frame_last.png": "f7f8077498ee15f9b8d8b6e07dc08ef6fdc1bec6a7d5484bed0ed47d3643f10b",
+    "game1_clip1/game1_clip1.mp4": "a158bdc4a241f55e92bf87953b34334e6e03ce952b0e0cb1da1e5c217a8400d5",
+    "game1_clip1/masks/frame_first.png": "89b10de03b0475146d3acc2da696d383d658a18a2744eba7fc63fd656f967810",
+    "game1_clip1/masks/frame_last.png": "6e2c4f3abbfbc3f4c5cf81ca08b3bfa30d8e11c140fdc86577490429b1f5b910",
+    "game1_clip2/bounding_boxes/frame_first_bbox.txt": "88d121550a9e14c11281268e9eb9f381c610e20aad36960ec8ff7de21d3d314c",
+    "game1_clip2/bounding_boxes/frame_last_bbox.txt": "d66b6cff365a8f17c80ea8eb8adac8ef5747572486f3102a985e0704f7af5736",
+    "game1_clip2/frames/frame_first.png": "d4700d909c912357ac9e06289903a88b12ccf3fc3d54f6fc5275f749955567d4",
+    "game1_clip2/frames/frame_last.png": "b4a8bbf2b65dd04f23346ddc5c2943df4cec709a7e8e6691b9d500fea30a1a4b",
+    "game1_clip2/game1_clip2.mp4": "ff683cf687521122ae6335297ab1a3375d5e5da748453781b3ff2bc18c0f66bb",
+    "game1_clip2/masks/frame_first.png": "3b2773dba753db12b509185435258122f343bfcb9641c090543aa5cdd4ef6099",
+    "game1_clip2/masks/frame_last.png": "bb2ef5d22f22678c8cc3c1d95cb04d52f35bcae40b7b9bf0db507ae8692c3727",
+    "game1_clip3/bounding_boxes/frame_first_bbox.txt": "dc26a4e7612129403593864f465856a3ebb8fa2e4b2433409087ea9c69cd1a92",
+    "game1_clip3/bounding_boxes/frame_last_bbox.txt": "8246d8031323ada688e04e04352bebd949956635271add3a964d1273584dc796",
+    "game1_clip3/frames/frame_first.png": "3a3a4f1a3aead8d7f176d65303b593a6c31e61d92802f67add93d69fa462aa0b",
+    "game1_clip3/frames/frame_last.png": "a66c177ed58b074536c27da6b44dfa7a9cd44f8492fd3fc33928f27dc87d5cc0",
+    "game1_clip3/game1_clip3.mp4": "b8b935984ed956380a485b5cd79cf19db9967aa0026983806f665b1e632bf0a0",
+    "game1_clip3/masks/frame_first.png": "71d1f6b11e528ece65a4969e341554f9cf738232f4a965166c5d26f6da4faf74",
+    "game1_clip3/masks/frame_last.png": "b9314331131e8fbad5b82bdd1b0a4984d477e0e3db6cd20871d1f909ace3d133",
+    "game1_clip4/bounding_boxes/frame_first_bbox.txt": "1cfad2409ef648147a0b79ac49ac4e337e4313c756f3948ff182b01f6bfe3982",
+    "game1_clip4/bounding_boxes/frame_last_bbox.txt": "85c0a76079007595b0b94fb410614a9126edd29cbb7867e616d4d1a065ea833e",
+    "game1_clip4/frames/frame_first.png": "2a2a348f5073814d3d2c322c7f2266c0d600e3f40c55255b494a432319b48c1b",
+    "game1_clip4/frames/frame_last.png": "7c0f892a85b7685101cd7156414cec09788ed32ed349e48523f873ef47928caf",
+    "game1_clip4/game1_clip4.mp4": "f92f1976e350498ef8a8499fb96469487137bd2d127283b691bb025084b97638",
+    "game1_clip4/masks/frame_first.png": "d34198ee7fb0e7982250856f1858606dd15147ec22b313c5ca215ea3faf476c5",
+    "game1_clip4/masks/frame_last.png": "d952e584da44d76e8331bbbe74bda067cc3a11001df7651d6617b869bc95877e",
+    "game2_clip1/bounding_boxes/frame_first_bbox.txt": "7eb43b751b495e2d2a9d22b60b68b43e16475fb6f9749406e11a0e52335c9242",
+    "game2_clip1/bounding_boxes/frame_last_bbox.txt": "d0dca0bf5173fa20d423df8e9253dfb22979302cfc46d700ea025176884aa359",
+    "game2_clip1/frames/frame_first.png": "4ff0510b7e30c15698ed3d3206d0c01b671cee3e08cc0460a3019aca08edad8f",
+    "game2_clip1/frames/frame_last.png": "f262ea2b5224d89bcf790541238c08dba6dc7ca5267ddf6726fc134a8ff76ff3",
+    "game2_clip1/game2_clip1.mp4": "b4985e9b89d48ea5e01b8c65e3413ab5e77dc9d7f421123303f2feb5f136964e",
+    "game2_clip1/masks/frame_first.png": "3864eae74e90d9b18408cc1e285d3adc1abd4c4727636aa4196c6ccdbf0eb2a3",
+    "game2_clip1/masks/frame_last.png": "eaef3d6285bd95c496a85c5b0a484172c97d601f9b8bd44e278e980a00170b37",
+    "game2_clip2/bounding_boxes/frame_first_bbox.txt": "a6d43ebea4ef99b7707f87811712c7408dce2b65769764edaff8e9d53a175dda",
+    "game2_clip2/bounding_boxes/frame_last_bbox.txt": "c47371384db98469e83f057199aacea60d1961cbef8d7449893365424ecb192a",
+    "game2_clip2/frames/frame_first.png": "0e80bb88e6764c33f95c856479887646e988bde229df96232043202d8d2f4dab",
+    "game2_clip2/frames/frame_last.png": "a709c7c485ff5b85b95c5b53f5ec829a3b1534ce4525c371e1abdbc22d5da2f1",
+    "game2_clip2/game2_clip2.mp4": "8c18263953b9f60df6dff4aee231b9c8afd17ad7a12c8d2452eb6f76ad59a7f6",
+    "game2_clip2/masks/frame_first.png": "f1b54f24c58a02b7fb23457d50fc76f3046ff93498305ef03f05e61e6d5e026c",
+    "game2_clip2/masks/frame_last.png": "c049c0726df8e685ce6442494ddd6a4666b427fba4cb0c78491178a0280c5598",
+    "game3_clip1/bounding_boxes/frame_first_bbox.txt": "1bdc9eb6260648ca82e9b925cc96a3e8ec1875657562b85d9411bd57dbf9fa0d",
+    "game3_clip1/bounding_boxes/frame_last_bbox.txt": "0d25b7d85c6c7aeaac3ec0a9f01c813a84156785d05b3c74a4032b7d7fb32e5e",
+    "game3_clip1/frames/frame_first.png": "f5f6caa00e48b3d7277084fe876ae7bb8a7be41e584d40ac5281d24a46c663c5",
+    "game3_clip1/frames/frame_last.png": "ec8f3e247b06cad4b660070c5375960b551b9c93aa97d6b1f5612905678c004a",
+    "game3_clip1/game3_clip1.mp4": "54408e678e530104acbf833821f251035f7fc8d2fb6b9b49eac6115a204163cc",
+    "game3_clip1/masks/frame_first.png": "0df14850a3dedb916f176d1612a3408596b77cd62c7ce77690a30331eba3bf60",
+    "game3_clip1/masks/frame_last.png": "7c9e08c735c412b2e9e32e5ca9f10cc8708eae8dada5f3f61d9aa1ddd5bc5f64",
+    "game3_clip2/bounding_boxes/frame_first_bbox.txt": "bde26ae571a8094694dde88a8604413735733e04b50337e727d032969881288a",
+    "game3_clip2/bounding_boxes/frame_last_bbox.txt": "f353563fc5a7350f8dace05b2a0412663d9ff13574212fade02c0cffa791dd37",
+    "game3_clip2/frames/frame_first.png": "5db624405d4660f09300b0bbca704cd64bfe23bae240bdca02e1589c4eee4459",
+    "game3_clip2/frames/frame_last.png": "afeec21090f5b184cc45af573e0886a9e45fd04af11891c8cd8a7b2525621618",
+    "game3_clip2/game3_clip2.mp4": "d9a6865f8e594353f57dd2e98c68fe168f8669f0ab8b8eb9e79ead1bc8e368f3",
+    "game3_clip2/masks/frame_first.png": "d3783bf241da9edb22fe041f29aa94c200c70325b42c291febfd43777d36ac6b",
+    "game3_clip2/masks/frame_last.png": "23ac5d427ce7a6457bc3f1e2f253cf415b6f3d8f3b28fbb3841b1d8d3cd553e7",
+    "game4_clip1/bounding_boxes/frame_first_bbox.txt": "4ba6b7bfb2ec1899d23b8b58a5b1f24d3ec56b9d1c6e75bce35be18105ecb186",
+    "game4_clip1/bounding_boxes/frame_last_bbox.txt": "776871797750e63de97902439a72064c52cf180c27af03e5191576df2105481b",
+    "game4_clip1/frames/frame_first.png": "e5563ddfb3d18e81863ff2c0d1d58b0faeb6ea5b46841b758999e7cce74083f3",
+    "game4_clip1/frames/frame_last.png": "b87b7c7b0968cee851da877683ed92df79347f860144a8fe222ed5ae751afd6e",
+    "game4_clip1/game4_clip1.mp4": "40991c5284bdf23d6649b1719f23b278028a713d35671d7638cb97252ffe1f43",
+    "game4_clip1/masks/frame_first.png": "36cdce0ca6e4c4059d94b0a803ad96694af4f295f22a552d8caee5adee0a2554",
+    "game4_clip1/masks/frame_last.png": "5618506de8a1c38ae7b439d11e6be79c6db5e70f4278ebee02cef0c333140784",
+    "game4_clip2/bounding_boxes/frame_first_bbox.txt": "1aa4d6d9dcd3dd93e0bc2fb297992d46758b40c95402c8e185460b5e037d0583",
+    "game4_clip2/bounding_boxes/frame_last_bbox.txt": "bc7359a2e816a4446b9c7993008e7c84285fdf01c8b7c84cc80a640402333d80",
+    "game4_clip2/frames/frame_first.png": "a428fe1ec9155fada74db680527b16e24308637776cf7b8683229a713d6cfbd2",
+    "game4_clip2/frames/frame_last.png": "3a4507b2c8aed8635a8205528d7dbc713e40e35a9d19d620848a88648c947183",
+    "game4_clip2/game4_clip2.mp4": "461a7984e42d98e3e71cecad9474af2ffda0513a60b9f80ee06381d0a4092c4f",
+    "game4_clip2/masks/frame_first.png": "c5f547d97b681c6d279c7fad37f30e6959b721969cdb269c32581dcd948b997e",
+    "game4_clip2/masks/frame_last.png": "c9d5224f0160fc873077afdbe8a377268c5a179d8efcae1349d24c2f3489e98b"
+  },
+  "Virtual_Lab_tested": false,
+  "input_decoding": "Original MP4 decoded to lossless PNG sequences with FFmpeg; C++ OpenCV analyzed every decoded frame. Frame rates explicitly supplied.",
+  "output_encoding": "C++ OpenCV MJPEG AVI output transcoded to H.264 MP4 for compact distribution."
+}

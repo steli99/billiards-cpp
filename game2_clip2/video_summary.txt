@@ -1,0 +1,3 @@
+Processed frames: 133
+FPS: 25
+Duration seconds: 5.32
