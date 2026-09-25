@@ -306,5 +306,5 @@ Processed 163 frames at 29.910 fps. [Annotated video](../results/benchmark/game4
 ![game4_clip2 minimap](../results/benchmark/game4_clip2/final_minimap.png)
 
 
-Output MP4 frame counts were checked against all ten source clips. All 20 frame predictions, ten final minimaps, ten annotated videos, position CSVs and metric rows are present. `results/verification.txt`, `results/tests.txt` and `results/run_metadata.json` record the checks, versions, source hashes and frame rates. The official Virtual Lab remains untested.
+Output MP4 frame counts were checked against all ten source clips. All 20 frame predictions, ten final minimaps, ten annotated videos, position CSVs and metric rows are present. `results/verification.txt`, `results/tests.txt` and `results/run_metadata.json` record the checks, versions, source hashes and frame rates.
 
