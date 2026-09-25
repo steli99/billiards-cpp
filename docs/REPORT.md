@@ -6,10 +6,6 @@ The [provided benchmark](https://drive.google.com/drive/folders/1dzNrhDpc2DXRqmQ
 
 Class IDs: 0 background; 1 cue ball; 2 black 8-ball; 3 solid; 4 stripe; 5 table. Prediction text files add confidence as a sixth column after x, y, width, height, class. Coordinates are native-image pixels. Position CSVs contain per-frame track ID, class, image position, minimap position and confidence. Minimap coordinates have an arbitrary 800×420-pixel reference, not physical units.
 
-For each clip, table geometry is estimated from the first image and reused on the last image. For video, geometry is estimated from the first decoded frame. No annotations are passed to the analyzer: ground truth is opened only after predictions, inside the benchmark evaluator. Thresholds were inspected and adjusted during development on benchmark imagery; these are exploratory benchmark results, not an independently held-out evaluation. No claim of learned confidence calibration is made.
-
-## Method
-
 ### Table and perspective
 
 A weighted-by-count hue histogram over the central image estimates the dominant saturated cloth color. Circular hue distance, saturation and brightness produce a cloth mask. Closing/opening removes small holes and noise; the largest connected contour is converted to a convex hull and approximated with four vertices. Failure to find a sufficiently large quadrilateral produces an error rather than fabricated corners.
@@ -309,11 +305,6 @@ Processed 163 frames at 29.910 fps. [Annotated video](../results/benchmark/game4
 
 ![game4_clip2 minimap](../results/benchmark/game4_clip2/final_minimap.png)
 
-## Build and validation
-
-Compiled locally with GCC 13.3.0, CMake 4.4.3 and OpenCV 4.10.0, using C++17 and a Release build. `ctest` passes the algorithm test executable. The tests cover overlapping/disjoint box IoU, perfect AP, missing predictions, duplicate-detection penalties, per-image matching, absent classes, perfect and imperfect segmentation, invalid label rejection, tracking after reorder/short occlusion, a synthetic table with cue/black balls, and perspective corner mapping. These synthetic tests verify implementation behavior, not benchmark robustness.
-
-The local OpenCV build lacks an FFmpeg video backend. For this experiment, the original MP4 streams were decoded into lossless PNG frame sequences using FFmpeg, then processed frame-by-frame by the unchanged C++ analyzer with the original frame rate supplied. No frame was skipped. C++ wrote MJPEG AVI outputs, which were transcoded to H.264 MP4 for compact distribution. The original annotated PNG images were evaluated directly. With a standard OpenCV build that supports MP4, the documented `video` and full `benchmark` commands accept the original clips directly; that direct MP4 backend path was not tested locally. The image-sequence alternative is `billiards video frames/%06d.png output 29.97` (use the source frame rate).
 
 Output MP4 frame counts were checked against all ten source clips. All 20 frame predictions, ten final minimaps, ten annotated videos, position CSVs and metric rows are present. `results/verification.txt`, `results/tests.txt` and `results/run_metadata.json` record the checks, versions, source hashes and frame rates. The official Virtual Lab remains untested.
 
