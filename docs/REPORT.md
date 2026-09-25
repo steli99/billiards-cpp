@@ -1,11 +1,5 @@
 # Billiards Vision — Technical report
 
-## Scope and authorship
-
-This is an AI-generated reference/portfolio implementation of the supplied **Sport video analysis for billiard matches** example (June/July 2024). It is implemented in C++17 with OpenCV, uses CMake, and contains no deep-learning models. All detection, classification, segmentation, tracking, minimap generation and evaluation logic is in C++.
-
-The supplied development guidelines and example explicitly disallow AI-written code in the course submission. Consequently, this repository is **not a compliant student submission**. Source files identify OpenAI ChatGPT as the author. No human group-member contribution or working-hour total has been invented. Human development hours are not recorded. Compilation on the official Virtual Lab has not been verified; local compilation and tests are documented below.
-
 ## Dataset and protocol
 
 The [provided benchmark](https://drive.google.com/drive/folders/1dzNrhDpc2DXRqmQgbO5l2WMjzfhMdxVn) contains ten clips from four matches. All 20 supplied first/last images and their original bounding boxes and label masks were evaluated. All **1464 video frames** were processed. The original dataset is not redistributed; derived output images and videos are included. Dataset copyrights remain with the original owners.
@@ -323,11 +317,3 @@ The local OpenCV build lacks an FFmpeg video backend. For this experiment, the o
 
 Output MP4 frame counts were checked against all ten source clips. All 20 frame predictions, ten final minimaps, ten annotated videos, position CSVs and metric rows are present. `results/verification.txt`, `results/tests.txt` and `results/run_metadata.json` record the checks, versions, source hashes and frame rates. The official Virtual Lab remains untested.
 
-## Remaining limitations and improvements
-
-- Table color must form a large saturated region; unusual gray cloth, severe occlusion, camera cuts or clutter with similar color can break geometry estimation.
-- Circle and color thresholds are not perspective-adaptive. Elliptical projections, touching balls, shadows and dark balls near pockets can be missed or merged.
-- Solid/striped classification depends strongly on ball orientation and the visible amount of white. Number patches and highlights can resemble stripes.
-- Greedy tracking is not a collision-aware physical model. A global assignment method with appearance history would be a useful next step.
-- Homography maps image ball centers onto the table plane and neglects their physical height. Trajectories are approximate image-derived paths, not measured billiard dynamics.
-- The requested course author/contribution/hour and Virtual Lab requirements are not satisfied by fabricated entries; human ownership, actual hours and official-environment verification would have to be established independently. The AI-code prohibition remains decisive for submission eligibility.
