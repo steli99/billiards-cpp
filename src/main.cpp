@@ -1,4 +1,3 @@
-// Author: OpenAI ChatGPT (AI-generated reference implementation).
 #include "billiards.hpp"
 #include <algorithm>
 #include <cmath>
